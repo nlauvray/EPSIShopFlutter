@@ -1,0 +1,3 @@
+Problème sur la partie shop qui n'est pas bien responsive avec les écrans plus larges, ce qui donne des erreurs
+
+
