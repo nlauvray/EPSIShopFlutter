@@ -17,6 +17,7 @@ dependencies:
   flutter_map: ^3.1.0
   latlong2: ^0.8.1
   google_maps_flutter: ^2.1.1
+  shared_preferences: ^2.0.8
 
   cupertino_icons: ^1.0.8
   url_launcher: ^6.3.1

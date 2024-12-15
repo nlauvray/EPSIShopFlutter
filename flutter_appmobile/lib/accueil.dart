@@ -1,7 +1,23 @@
 import 'package:flutter/material.dart';
 
-class Accueil extends StatelessWidget {
+class Accueil extends StatefulWidget {
   const Accueil({super.key});
+
+  @override
+  _AccueilState createState() => _AccueilState();
+}
+
+class _AccueilState extends State<Accueil> {
+  String? _currentPage;
+
+  void _navigateToPage(String page, BuildContext context) {
+    if (_currentPage != page) {
+      setState(() {
+        _currentPage = page;
+      });
+      Navigator.pushNamed(context, page);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
